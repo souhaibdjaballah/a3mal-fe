@@ -12,6 +12,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { LoginComponent } from './components/login/login.component';
 import { CookieService } from 'ngx-cookie-service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { Location } from '@angular/common';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     HireListingComponent,
     WorkListingComponent,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -34,4 +40,4 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
