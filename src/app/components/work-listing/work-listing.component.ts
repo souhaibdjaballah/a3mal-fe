@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { WorkPost } from '../commons/work-post';
-import { WorkService } from '../services/work.service';
+import { WorkPost } from '../../commons/work-post';
+import { WorkService } from '../../services/work.service';
 
 @Component({
   selector: 'app-work-listing',

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { HirePost } from '../commons/hire-post';
-import { HireService } from '../services/hire.service';
+import { HirePost } from '../../commons/hire-post';
+import { HireService } from '../../services/hire.service';
 
 @Component({
   selector: 'app-hire-listing',

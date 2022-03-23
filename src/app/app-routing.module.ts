@@ -5,9 +5,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { ListingPageComponent } from './components/listing-page/listing-page.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
-import { HireListingComponent } from './hire-listing/hire-listing.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { WorkListingComponent } from './work-listing/work-listing.component';
+import { HireListingComponent } from './components/hire-listing/hire-listing.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { WorkListingComponent } from './components/work-listing/work-listing.component';
 
 
 // const hireListing = () => import('./hire-listing/hire-listing.component').then(c => c.HireListingComponent)
